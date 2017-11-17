@@ -184,7 +184,6 @@ $(document).ready(function(){
 	function start(){
 		$('.time-left').css('background', 'none');
 		$('.time-left').html('<button id="start" class="button sw-font spaced-out">Start</button>');
-		// answersEmpty();
 		$('.question-div').css('text-align', 'center');
 		$('.question-content').html("Click on the 'Start' button to begin the game.");
 		$('#start').click(function(){
