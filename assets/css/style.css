@@ -38,6 +38,11 @@ h1 {
 	color: yellow;
 }
 
+.button:hover {
+	cursor: pointer;
+	background: #555;
+}
+
 .main-content {
 	background: rgba(0, 0, 0, 0.5);
 	position: relative;
